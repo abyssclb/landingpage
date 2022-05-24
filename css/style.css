@@ -1,0 +1,323 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+h1 {
+  color: #9db0d1;
+  font-size: 60px;
+  font-family: 'Arapey', serif;
+}
+.header {
+  width: 1440px;
+}
+.main-title {
+  font-family: 'Arapey';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 60px;
+  line-height: 66px;
+  color: #9DB0D1;
+  text-align: center;
+  margine: 100px 0 50px 0;
+}
+.paragraph {
+  font-family: 'Verdana';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  color: #000000;
+  text-align: center;
+  width: 1024px;
+  height: 48px;
+  margin: 50px 208px 50px 208px;
+}
+.button {
+  background: #EBAC87;
+  border-radius: 10px;
+  border: 0;
+  padding: 24px 50px;
+  margin: 0 auto;
+  display: block;
+  font-family: 'Arapey';
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 32px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+.list {
+  width: 1440px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 50px 0 0 0;
+}
+.bullet {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background: #9DB0D1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 5px 0 20px;
+}
+.pointone{
+  font-family: 'Verdana';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  margin: 18px 10px 18px 5px;
+}
+.caption {
+  background: url("../img/clouds.png") repeat-x top / auto 200px,
+    linear-gradient(180deg, rgba(135, 198, 235, 0) 8.33%, #87C6EB 93.06%);
+  padding: 250px 120px 100px;
+  font-family: 'Arapey';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 44px;
+  text-align: center;
+}
+.sky{
+  background: #87C6EB;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.sunone{
+  width: 350px;
+  height: 560px;
+  background: #FFFFFF;
+  border-radius: 10px;
+  margin: 50px 75px 35px 120px;
+  padding: 20px;
+
+}
+.suntwo{
+  width: 350px;
+  height: 560px;
+  background: #FFFFFF;
+  border-radius: 10px;
+  margin: 50px 75px 35px 75px;
+  padding: 20px;
+}
+.sunthree{
+  width: 350px;
+  height: 560px;
+  background: #FFFFFF;
+  border-radius: 10px;
+  margin: 50px 120px 35px 75px;
+  padding: 20px;
+}
+.circle{
+  width: 60px;
+  height: 60px;
+  background: rgba(235, 172, 135, 0.6);
+  border-radius: 50%;
+  margin: 10px 280px 10px 10px;
+  padding:12px 20px 12px 20px;
+  font-family: 'Verdana';
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 36px;
+  text-align: center;
+  color: #FFFFFF;
+}
+.circle2{
+  width: 60px;
+  height: 60px;
+  background: rgba(235, 172, 135, 0.6);
+  border-radius: 50%;
+  margin: 10px 280px 10px 10px;
+  padding:12px 20px 12px 20px;
+  font-family: 'Verdana';
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 36px;
+  text-align: center;
+  color: #FFFFFF;
+}
+.circle3{
+  width: 60px;
+  height: 60px;
+  background: rgba(235, 172, 135, 0.6);
+  border-radius: 50%;
+  margin: 10px 280px 10px 10px;
+  padding:12px 20px 12px 20px;
+  font-family: 'Verdana';
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 36px;
+  text-align: center;
+  color: #FFFFFF;
+}
+.image {
+  width: 310px;
+  height: 310px;
+  background: #EBAC87;
+}
+.image img {
+  width: 100%;
+}
+p{
+  width: 260px;
+  height: 120px;
+  font-family: 'Verdana';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+}
+strong{
+ font-weight:bold;
+}
+.bot {
+  background: url("../img/photo04.png") no-repeat right bottom/ auto 475px, #87C6EB;
+}
+.heading{
+  font-family: 'Arapey';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 44px;
+  color: #FFFFFF;
+  margin: 0px 720px 25px 120px;
+}
+.par{
+  font-family: 'Verdana';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: left;
+  color: #000000;
+  margin: 25px 720px 25px 120px;
+}
+.press{
+ display: flex;
+ justify-content: space-between;
+}
+.butt{
+  width: 220px;
+  height: 80px;
+  background: #FFFFFF;
+  border-radius: 10px;
+  border: 0;
+  padding: 24px 50px;
+  margin: 25px 0 0 120px;
+  text-transform: uppercase;
+  white-space: nowrap;
+  text-align: center;
+  font-family: 'Arapey';
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 32px;
+  color: #EBAC87;
+}
+.question{
+  width: 80px;
+  height: 80px;
+  background: #EBAC87;
+  border-radius: 50%;
+  border:0;
+  margin: 1em;
+  padding:3px 23px 4px 24px;
+  font-family: 'Verdana';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 60px;
+  line-height: 73px;
+  color: #FFFFFF;
+} 
+.footer{ 
+  display: flex;
+  justify-content: space-between;
+}
+.buton {
+  background: #EBAC87;
+  border-radius: 10px;
+  border: 0;
+  padding: 24px 50px;
+  margin: 50px 771px 50px 120px;
+  white-space: nowrap;
+  font-family: 'Arapey';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 32px;
+  text-align: center;
+  color: #FFFFFF;
+}
+.links{
+ display: flex;
+ justify-content: center;
+}
+.fb{
+  width: 24px;
+  height: 23.85px;
+  margin:78px 36px 0 0;
+}
+.ig{
+  width: 24px;
+  height: 24px;
+  margin:78px 36px 0 0;
+}
+.pinterest{
+  width: 24px;
+  height: 24px;
+  margin:78px 198px 0 0;
+}
